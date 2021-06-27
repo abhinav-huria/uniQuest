@@ -51,7 +51,7 @@ jobs:
       run: npm i firebase
      
     - name: Build project
-      run: npm start
+      run: npm run build
     
     
     - name: Upload production-ready build files
