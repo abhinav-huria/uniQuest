@@ -41,6 +41,12 @@ jobs:
     - name: Install reach router
       run: npm i @reach/router
       
+    - name: Install tailswind
+      run: npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+      
+    - name: Install craco
+      run: npm install @craco/craco
+      
     - name: Install firebase
       run: npm i firebase
      
